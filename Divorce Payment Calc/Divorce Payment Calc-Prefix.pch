@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Divorce Payment Calc' target in the 'Divorce Payment Calc' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA25A9671501C2A8007F3C67 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA25A9661501C2A8007F3C67 /* Cocoa.framework */; };
+		AA25A9711501C2A8007F3C67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA25A96F1501C2A8007F3C67 /* InfoPlist.strings */; };
+		AA25A9731501C2A8007F3C67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25A9721501C2A8007F3C67 /* main.m */; };
+		AA25A9771501C2A8007F3C67 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AA25A9751501C2A8007F3C67 /* Credits.rtf */; };
+		AA25A97A1501C2A8007F3C67 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25A9791501C2A8007F3C67 /* Document.m */; };
+		AA25A97D1501C2A8007F3C67 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA25A97B1501C2A8007F3C67 /* Document.xib */; };
+		AA25A9801501C2A9007F3C67 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA25A97E1501C2A9007F3C67 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA25A9621501C2A8007F3C67 /* Divorce Payment Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Divorce Payment Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA25A9661501C2A8007F3C67 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA25A9691501C2A8007F3C67 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA25A96A1501C2A8007F3C67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA25A96B1501C2A8007F3C67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA25A96E1501C2A8007F3C67 /* Divorce Payment Calc-Info.plist */ = {isa = PBXFileReference; path = "Divorce Payment Calc-Info.plist"; sourceTree = "<group>"; };
+		AA25A9701501C2A8007F3C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA25A9721501C2A8007F3C67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA25A9741501C2A8007F3C67 /* Divorce Payment Calc-Prefix.pch */ = {isa = PBXFileReference; path = "Divorce Payment Calc-Prefix.pch"; sourceTree = "<group>"; };
+		AA25A9761501C2A8007F3C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AA25A9781501C2A8007F3C67 /* Document.h */ = {isa = PBXFileReference; path = Document.h; sourceTree = "<group>"; };
+		AA25A9791501C2A8007F3C67 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		AA25A97C1501C2A8007F3C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
+		AA25A97F1501C2A9007F3C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA25A95F1501C2A8007F3C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA25A9671501C2A8007F3C67 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA25A9571501C2A7007F3C67 = {
+			isa = PBXGroup;
+			children = (
+				AA25A96C1501C2A8007F3C67 /* Divorce Payment Calc */,
+				AA25A9651501C2A8007F3C67 /* Frameworks */,
+				AA25A9631501C2A8007F3C67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA25A9631501C2A8007F3C67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA25A9621501C2A8007F3C67 /* Divorce Payment Calc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA25A9651501C2A8007F3C67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA25A9661501C2A8007F3C67 /* Cocoa.framework */,
+				AA25A9681501C2A8007F3C67 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA25A9681501C2A8007F3C67 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA25A9691501C2A8007F3C67 /* AppKit.framework */,
+				AA25A96A1501C2A8007F3C67 /* CoreData.framework */,
+				AA25A96B1501C2A8007F3C67 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA25A96C1501C2A8007F3C67 /* Divorce Payment Calc */ = {
+			isa = PBXGroup;
+			children = (
+				AA25A9781501C2A8007F3C67 /* Document.h */,
+				AA25A9791501C2A8007F3C67 /* Document.m */,
+				AA25A97B1501C2A8007F3C67 /* Document.xib */,
+				AA25A97E1501C2A9007F3C67 /* MainMenu.xib */,
+				AA25A96D1501C2A8007F3C67 /* Supporting Files */,
+			);
+			path = "Divorce Payment Calc";
+			sourceTree = "<group>";
+		};
+		AA25A96D1501C2A8007F3C67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA25A96E1501C2A8007F3C67 /* Divorce Payment Calc-Info.plist */,
+				AA25A96F1501C2A8007F3C67 /* InfoPlist.strings */,
+				AA25A9721501C2A8007F3C67 /* main.m */,
+				AA25A9741501C2A8007F3C67 /* Divorce Payment Calc-Prefix.pch */,
+				AA25A9751501C2A8007F3C67 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA25A9611501C2A8007F3C67 /* Divorce Payment Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA25A9831501C2A9007F3C67 /* Build configuration list for PBXNativeTarget "Divorce Payment Calc" */;
+			buildPhases = (
+				AA25A95E1501C2A8007F3C67 /* Sources */,
+				AA25A95F1501C2A8007F3C67 /* Frameworks */,
+				AA25A9601501C2A8007F3C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Divorce Payment Calc";
+			productName = "Divorce Payment Calc";
+			productReference = AA25A9621501C2A8007F3C67 /* Divorce Payment Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA25A9591501C2A7007F3C67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AA25A95C1501C2A7007F3C67 /* Build configuration list for PBXProject "Divorce Payment Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA25A9571501C2A7007F3C67;
+			productRefGroup = AA25A9631501C2A8007F3C67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA25A9611501C2A8007F3C67 /* Divorce Payment Calc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA25A9601501C2A8007F3C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA25A9711501C2A8007F3C67 /* InfoPlist.strings in Resources */,
+				AA25A9771501C2A8007F3C67 /* Credits.rtf in Resources */,
+				AA25A97D1501C2A8007F3C67 /* Document.xib in Resources */,
+				AA25A9801501C2A9007F3C67 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA25A95E1501C2A8007F3C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA25A9731501C2A8007F3C67 /* main.m in Sources */,
+				AA25A97A1501C2A8007F3C67 /* Document.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA25A96F1501C2A8007F3C67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA25A9701501C2A8007F3C67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA25A9751501C2A8007F3C67 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA25A9761501C2A8007F3C67 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AA25A97B1501C2A8007F3C67 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA25A97C1501C2A8007F3C67 /* en */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		AA25A97E1501C2A9007F3C67 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA25A97F1501C2A9007F3C67 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA25A9811501C2A9007F3C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA25A9821501C2A9007F3C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA25A9841501C2A9007F3C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Divorce Payment Calc/Divorce Payment Calc-Prefix.pch";
+				INFOPLIST_FILE = "Divorce Payment Calc/Divorce Payment Calc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA25A9851501C2A9007F3C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Divorce Payment Calc/Divorce Payment Calc-Prefix.pch";
+				INFOPLIST_FILE = "Divorce Payment Calc/Divorce Payment Calc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA25A95C1501C2A7007F3C67 /* Build configuration list for PBXProject "Divorce Payment Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA25A9811501C2A9007F3C67 /* Debug */,
+				AA25A9821501C2A9007F3C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA25A9831501C2A9007F3C67 /* Build configuration list for PBXNativeTarget "Divorce Payment Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA25A9841501C2A9007F3C67 /* Debug */,
+				AA25A9851501C2A9007F3C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA25A9591501C2A7007F3C67 /* Project object */;
+}
