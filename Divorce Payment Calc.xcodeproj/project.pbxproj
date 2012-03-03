@@ -22,12 +22,12 @@
 		AA25A9691501C2A8007F3C67 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		AA25A96A1501C2A8007F3C67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AA25A96B1501C2A8007F3C67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AA25A96E1501C2A8007F3C67 /* Divorce Payment Calc-Info.plist */ = {isa = PBXFileReference; path = "Divorce Payment Calc-Info.plist"; sourceTree = "<group>"; };
+		AA25A96E1501C2A8007F3C67 /* Divorce Payment Calc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Divorce Payment Calc-Info.plist"; sourceTree = "<group>"; };
 		AA25A9701501C2A8007F3C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA25A9721501C2A8007F3C67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AA25A9741501C2A8007F3C67 /* Divorce Payment Calc-Prefix.pch */ = {isa = PBXFileReference; path = "Divorce Payment Calc-Prefix.pch"; sourceTree = "<group>"; };
+		AA25A9741501C2A8007F3C67 /* Divorce Payment Calc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Divorce Payment Calc-Prefix.pch"; sourceTree = "<group>"; };
 		AA25A9761501C2A8007F3C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		AA25A9781501C2A8007F3C67 /* Document.h */ = {isa = PBXFileReference; path = Document.h; sourceTree = "<group>"; };
+		AA25A9781501C2A8007F3C67 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
 		AA25A9791501C2A8007F3C67 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		AA25A97C1501C2A8007F3C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
 		AA25A97F1501C2A9007F3C67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
